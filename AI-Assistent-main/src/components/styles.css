@@ -1,0 +1,165 @@
+
+.heading h1{
+    color:rgb(7, 155, 130);
+    font-size: 50px;
+    font-weight:900;
+    letter-spacing: 1px;
+    padding-top:4rem;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50,50,70,0.7);
+    
+}
+.heading h4{
+    color:white;
+    text-align: center;
+}
+.searchBox{
+    text-align: center;
+    margin:3rem;
+    position: relative;
+    display: inline-block;
+    margin-left: 600px;
+
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: teal; 
+}
+
+.search-bar {
+    padding-left: 50px; 
+    height: 40px;
+    width: 300px; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+}
+
+.notSearch{
+    font-size: 35px;
+    color:white;
+    font-weight:900;
+}
+
+.meal-container{
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+.meal-card {
+    width:300px;
+    height:150px;
+    margin:1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 7px 12px rgba(8, 212, 219, 0.7);
+    box-sizing: border-box;
+    overflow: auto;
+    position:relative;
+}
+
+.meal-card .meal-name {
+    padding-top: 20px;
+    color: #198a77;;  
+    text-align: center;
+  }
+ 
+  .meal-card .meal-name  h2{
+      margin:0;
+      font-weight: 900;
+      margin-top: 15px;
+  }
+  .meal-card .meal-name  p{
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.meal-card:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:0;
+    width:100%;
+    background: linear-gradient(to bottom,#198a77,#198a77);
+    transition:0.2s All;
+}
+.meal-card:hover:before{
+    height: 100%;  
+   
+}
+.meal-card:hover{
+    background: linear-gradient(to bottom,#198a77,r#198a77);  
+}
+.meal-card .meal-details{
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: justify;
+    padding: 0.5rem 1rem;
+    display: none;
+    transition: 0.3s all;
+}
+.meal-card:hover .meal-details{
+    display:block;
+    background-color: #198a77;
+}
+.meal-details h2{
+    margin-bottom:10px;
+}
+.meal-details img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.meal-details p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.meal-details a{   
+    display: block;
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .searchBox{
+        text-align: center;
+        margin:3rem;
+        position: relative;
+        display: inline-block;
+        margin-left: 45px;
+    
+    }
+    .search-bar {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+    .search-icon {
+        position: absolute;
+        left: 15px; 
+        top: 50%;
+        transform: translateY(-50%);
+        color: teal; 
+    }
+
+    .meal-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .meal-card {
+        width: 80%; 
+        max-width: 300px; 
+    }
+}

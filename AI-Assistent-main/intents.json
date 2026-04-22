@@ -1,0 +1,383 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting the museum",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help you today at the museum?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting the museum",
+        "Have a nice day",
+        "Bye! Come back to the museum soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "exhibits",
+      "patterns": [
+        "Which exhibits do you have?",
+        "What kinds of exhibits are there?",
+        "What are the current exhibits?"
+      ],
+      "responses": [
+        "We have art, history, and science exhibits",
+        "Current exhibits include ancient Egypt, modern art, and dinosaur fossils"
+      ]
+    },
+    {
+      "tag": "tickets",
+      "patterns": [
+        "How much are tickets?",
+        "What are the ticket prices?",
+        "How much does it cost to enter?"
+      ],
+      "responses": [
+        "tickets are rs.50",
+        "You can find the ticket prices on our website or at the entrance"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "What time do you close?"
+      ],
+      "responses": [
+        "We are open from 10 AM to 6 PM, Monday through Saturday",
+        "Our hours are 10 AM to 6 PM, every day except Sunday"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "How do I get to the museum?"
+      ],
+      "responses": [
+        "We are located at 123 Museum St, City, Country",
+        "You can find us at 123 Museum St, just off the main square"
+      ]
+    },
+    {
+      "tag": "membership",
+      "patterns": [
+        "Do you have memberships?",
+        "How can I become a member?",
+        "What are the benefits of membership?"
+      ],
+      "responses": [
+        "Yes, we offer memberships with various benefits including free admission and special events",
+        "You can become a member on our website or at the ticket counter"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What events do you have?",
+        "Are there any special events?",
+        "What are the upcoming events?"
+      ],
+      "responses": [
+        "We have workshops, lectures, and family days scheduled throughout the month",
+        "Upcoming events include a special lecture on ancient civilizations and a family craft day"
+      ]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "Is there parking available?",
+        "Where can I park?",
+        "Do you have a parking lot?"
+      ],
+      "responses": [
+        "Yes, we have a parking lot next to the museum",
+        "You can park in our parking lot or use street parking nearby"
+      ]
+    },
+    {
+      "tag": "accessibility",
+      "patterns": [
+        "Is the museum accessible?",
+        "Do you have wheelchair access?",
+        "Are there accommodations for disabled visitors?"
+      ],
+      "responses": [
+        "Yes, the museum is fully accessible with ramps and elevators",
+        "We provide accommodations for all visitors, including wheelchair access"
+      ]
+    },
+    {
+      "tag": "guided_tours",
+      "patterns": [
+        "Do you offer guided tours?",
+        "Can I get a guided tour?",
+        "Are there tour guides available?"
+      ],
+      "responses": [
+        "Yes, we offer guided tours daily at 11 AM and 2 PM",
+        "You can join a guided tour or request a private tour for your group"
+      ]
+    },
+    {
+      "tag": "cafe",
+      "patterns": [
+        "Is there a cafe?",
+        "Do you have a restaurant?",
+        "Where can I get food?"
+      ],
+      "responses": [
+        "Yes, we have a cafe on the ground floor serving snacks and drinks",
+        "You can visit our cafe for a variety of food and beverages"
+      ]
+    },
+    {
+      "tag": "souvenirs",
+      "patterns": [
+        "Do you have a gift shop?",
+        "Where can I buy souvenirs?",
+        "Is there a place to buy gifts?"
+      ],
+      "responses": [
+        "Yes, we have a gift shop with a variety of souvenirs and gifts",
+        "You can find our gift shop near the entrance of the museum"
+      ]
+    },
+    {
+      "tag": "membership_benefits",
+      "patterns": [
+        "What are the benefits of membership?",
+        "Why should I become a member?",
+        "What do members get?"
+      ],
+      "responses": [
+        "Members receive free admission, discounts on events, and exclusive access to special exhibitions",
+        "Membership includes benefits such as free entry, special event invitations, and discounts in our gift shop"
+      ]
+    },
+    {
+      "tag": "volunteering",
+      "patterns": [
+        "Can I volunteer at the museum?",
+        "Do you have volunteer opportunities?",
+        "How can I become a volunteer?"
+      ],
+      "responses": [
+        "Yes, we have volunteer opportunities in various departments",
+        "You can apply to volunteer on our website or at the information desk"
+      ]
+    },
+    {
+      "tag": "donations",
+      "patterns": [
+        "How can I donate?",
+        "Do you accept donations?",
+        "Can I support the museum financially?"
+      ],
+      "responses": [
+        "Yes, we accept donations online and at the museum",
+        "You can support the museum by making a donation on our website or at the donation box in the lobby"
+      ]
+    },
+    {
+      "tag": "children_programs",
+      "patterns": [
+        "Do you have programs for children?",
+        "What activities are there for kids?",
+        "Are there any family-friendly events?"
+      ],
+      "responses": [
+        "Yes, we offer a variety of programs and activities for children",
+        "We have family-friendly events and educational programs for kids of all ages"
+      ]
+    },
+    {
+      "tag": "school_visits",
+      "patterns": [
+        "Can school groups visit the museum?",
+        "Do you offer school tours?",
+        "How can I arrange a school visit?"
+      ],
+      "responses": [
+        "Yes, we welcome school groups and offer educational tours",
+        "You can arrange a school visit by contacting our education department"
+      ]
+    },
+    {
+      "tag": "artifacts",
+      "patterns": [
+        "What artifacts do you have?",
+        "Can I see ancient artifacts?",
+        "Do you have historical objects?"
+      ],
+      "responses": [
+        "We have a wide range of artifacts from various historical periods",
+        "Our exhibits include ancient artifacts, historical objects, and cultural treasures"
+      ]
+    },
+    {
+      "tag": "interactive_exhibits",
+      "patterns": [
+        "Do you have interactive exhibits?",
+        "Can I interact with the exhibits?",
+        "Are there hands-on activities?"
+      ],
+      "responses": [
+        "Yes, we have interactive exhibits and hands-on activities for visitors of all ages",
+        "You can enjoy our interactive exhibits and participate in hands-on learning experiences"
+      ]
+    },
+    {
+      "tag": "membership_cost",
+      "patterns": [
+        "How much is a membership?",
+        "What is the cost of membership?",
+        "What are the membership fees?"
+      ],
+      "responses": [
+        "Membership costs vary, please check our website for detailed information",
+        "You can find membership pricing on our website or inquire at the ticket counter"
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have WiFi?",
+        "Is there internet access?",
+        "Can I use WiFi at the museum?"
+      ],
+      "responses": [
+        "Yes, we offer free WiFi for all visitors",
+        "You can connect to our free WiFi while you visit the museum"
+      ]
+    },
+    {
+      "tag": "lost_and_found",
+      "patterns": [
+        "Is there a lost and found?",
+        "What if I lose something?",
+        "Where can I report a lost item?"
+      ],
+      "responses": [
+        "Yes, we have a lost and found at the information desk",
+        "You can report lost items at the information desk or contact us online"
+      ]
+    },
+    {
+      "tag": "photography",
+      "patterns": [
+        "Can I take photos?",
+        "Is photography allowed?",
+        "Can I use my camera?"
+      ],
+      "responses": [
+        "Yes, photography is allowed in most areas, but please avoid using flash",
+        "You can take photos, but some exhibits may have restrictions on photography"
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "Is the museum safe?",
+        "Do you have security?",
+        "What are your security measures?"
+      ],
+      "responses": [
+        "Yes, we have security personnel and measures in place to ensure visitor safety",
+        "Our security team is here to help keep the museum and its visitors safe"
+      ]
+    },
+    {
+      "tag": "research",
+      "patterns": [
+        "Can I conduct research at the museum?",
+        "Do you offer research facilities?",
+        "Can I access the museum's research resources?"
+      ],
+      "responses": [
+        "Yes, we offer research facilities and resources for scholars",
+        "You can access our research resources by contacting our research department"
+      ]
+    },
+    {
+      "tag": "audio_guides",
+      "patterns": [
+        "Do you have audio guides?",
+        "Can I get an audio guide?",
+        "Are there guided audio tours?"
+      ],
+      "responses": [
+        "Yes, we offer audio guides in multiple languages",
+        "You can rent an audio guide at the entrance or use our mobile app"
+      ]
+    },
+    {
+      "tag": "group_visits",
+      "patterns": [
+        "Can I book a group visit?",
+        "Do you offer discounts for groups?",
+        "How can I arrange a group tour?"
+      ],
+      "responses": [
+        "Yes, we offer group tours and discounts for large groups",
+        "You can arrange a group visit by contacting our group tour coordinator"
+      ]
+    },
+    {
+      "tag": "private_events",
+      "patterns": [
+        "Can I host a private event at the museum?",
+        "Do you rent out spaces for events?",
+        "Can I book the museum for a private function?"
+      ],
+      "responses": [
+        "Yes, we offer space rentals for private events",
+        "You can book our facilities for private functions by contacting our events team"
+      ]
+    },
+    {
+      "tag": "virtual_tours",
+      "patterns": [
+        "Do you offer virtual tours?",
+        "Can I visit the museum online?",
+        "Are there online tours available?"
+      ],
+      "responses": [
+        "Yes, we offer virtual tours on our website",
+        "You can explore the museum online through our virtual tour feature"
+      ]
+    },
+    {
+      "tag": "exhibit_information",
+      "patterns": [
+        "Can I get more information about an exhibit?",
+        "Where can I learn more about the exhibits?",
+        "Do you have detailed exhibit information?"
+      ],
+      "responses": [
+        "Yes, you can find detailed information about our exhibits on our website and in our exhibit guides",
+        "Our staff and informational materials are available to provide more details about each exhibit"
+      ]
+    }
+  ]
+}
