@@ -288,7 +288,3 @@ The project may show a warning that Node's `os` module was externalized for brow
 - Replace hardcoded payment credentials with environment variables
 - Add automated tests for frontend forms and backend APIs
 - Improve hardware configuration through `.env` instead of editing Python source
-
-## License
-
-This project currently uses the license declared in `AI-Assistent-main/package.json`.
