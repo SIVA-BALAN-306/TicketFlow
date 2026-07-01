@@ -40,8 +40,8 @@ const Home = () => {
                             style={imageStyles}
                         />
                         <div style={overlayStyles}>
-                            <h1 style={headingStyles}>WE WILL EXPLORE THE HISTORY</h1>
-                            <h1 style={headingStyles}>CHENNAI CENTRAL MUSEUM</h1>
+                            <h1 style={headingStyles}>TicketFlow</h1>
+                            <h1 style={headingStyles}>TicketFlow AI</h1>
                         </div>
                     </div>
                     <div style={dotsContainerStyles}>

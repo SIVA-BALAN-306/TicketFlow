@@ -59,7 +59,7 @@ const App = () => {
             {showPopup && (
                 <div className="popup">
                     <div className="popup-content">
-                        <h2>MR.ADVISOR</h2>
+                        <h2>TicketFlow AI</h2>
                         <TranslateWidget />
                         <p>In this chatbot, only access to a few questions is free. If you want to move further, please complete the login process.</p>
                         <button onClick={handleAccept}>Accept</button>

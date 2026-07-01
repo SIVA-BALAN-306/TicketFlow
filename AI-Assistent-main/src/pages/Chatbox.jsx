@@ -27,7 +27,7 @@ const Chatbox = () => {
         })
         .then(response => response.json())
         .then(data => {
-            const botMessage = { name: "Mr.DOCTOR", message: data.message };  // Accessing the message
+            const botMessage = { name: "TicketFlow AI", message: data.message };  // Accessing the message
             setMessages(prevMessages => [...prevMessages, botMessage]);
             if (voiceEnabled) {
                 speak(data.message);  // Using the message for speech
@@ -36,7 +36,7 @@ const Chatbox = () => {
         })
         .catch(error => {
             console.error('Error:', error);
-            const errorMessage = { name: "Mr.DOCTOR", message: "Sorry, something went wrong. Please try again." };
+            const errorMessage = { name: "TicketFlow AI", message: "Sorry, something went wrong. Please try again." };
             setMessages(prevMessages => [...prevMessages, errorMessage]);
             messageInputRef.current.value = '';  // Clear input field even on error
         });
@@ -78,13 +78,13 @@ const Chatbox = () => {
                             <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image" />
                         </div>
                         <div className="chatbox__content--header">
-                            <h4 className="chatbox__heading--header">Q-A BOT</h4>
-                            <p className="chatbox__description--header">Hi. I am a tourist guide. How can I help you?</p>
+                            <h4 className="chatbox__heading--header">TicketFlow AI</h4>
+                            <p className="chatbox__description--header">Hi. I am TicketFlow AI. How can I help you?</p>
                         </div>
                     </div>
                     <div className="chatbox__messages">
                         {messages.map((item, index) => (
-                            <div key={index} className={`messages__item ${item.name === "Mr.DOCTOR" ? "messages__item--operator" : "messages__item--visitor"}`}>
+                            <div key={index} className={`messages__item ${item.name === "TicketFlow AI" ? "messages__item--operator" : "messages__item--visitor"}`}>
                                 {item.message}
                             </div>
                         ))}

@@ -109,7 +109,7 @@ const Success = () => {
                         textAlign: 'center',
                         width: '300px'
                     }}>
-                        <h2>MR.ADVISOR</h2>
+                        <h2>TicketFlow AI</h2>
                         <p>Are you sure you want to cancel the ticket?</p>
                         <button
                             onClick={handleAccept}

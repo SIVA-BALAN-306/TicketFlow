@@ -13,7 +13,7 @@ const Nav = ({ onLoginClick }) => {
 
     return (
         <nav className="nav containers fixed-top">
-            <Link to="/" className="nav__logo"><FaRobot size="2em" />MR.ADVISOR</Link>
+            <Link to="/" className="nav__logo"><FaRobot size="2em" />TicketFlow</Link>
 
             <div className="nav__menu" id="nav-menu">
                 <ul className="nav__list">

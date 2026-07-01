@@ -1,0 +1,13 @@
+# Core chatbot and NLP
+flask>=3.0.0
+flask-cors>=4.0.0
+torch>=2.2.0
+nltk>=3.8.1
+numpy>=1.26.0
+requests>=2.31.0
+
+# Hardware integration
+opencv-python>=4.9.0.80
+pyserial>=3.5
+pymongo>=4.6.0
+pyzbar>=0.1.9
